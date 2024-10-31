@@ -30,7 +30,7 @@ public class Funciones2 {
         System.out.println("1. celsius a Fahrenheit");
     	System.out.println("2. Fahrenheit a celsius");
     	System.out.println("0. salir");
-        n=Reto2.dimeEntero("Que temperatura quieres", sc);
+        n=Funciones.dimeEntero("Escribe un numero", sc);
     	}while(n!=0);
     	switch(n) {
     	case 1:
@@ -50,7 +50,7 @@ public class Funciones2 {
         System.out.println("1. litros a galones");
     	System.out.println("2. galones a litros");
     	System.out.println("0. salir");
-        n=Reto2.dimeEntero("Que temperatura quieres", sc);
+        n=Funciones.dimeEntero("Escribe un numero", sc);
     	}while(n!=0);
     	switch(n) {
     	case 1:
