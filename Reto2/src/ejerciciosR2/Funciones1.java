@@ -1,0 +1,5 @@
+package ejerciciosR2;
+
+public class Funciones1 {
+
+}
