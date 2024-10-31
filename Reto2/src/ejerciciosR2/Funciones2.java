@@ -34,8 +34,12 @@ public class Funciones2 {
     	}while(n!=0);
     	switch(n) {
     	case 1:
+    		double temp=Funciones.dimeDouble("Escribe la temperatura", sc);
+			System.out.println(celsiusaFahrenheit(temp));
     		System.out.println(celsiusaFahrenheit(n));
     	case 2:
+    		double temp1=Funciones.dimeDouble("Escribe la temperatura", sc);
+			System.out.println(Fahrenheitcelsius(temp1));
     		System.out.println(Fahrenheitcelsius(n));
     		
     	}
@@ -54,8 +58,12 @@ public class Funciones2 {
     	}while(n!=0);
     	switch(n) {
     	case 1:
+    		double vol=Funciones.dimeDouble("Escribe la temperatura", sc);
+			System.out.println(litrosagalones(vol));
     		System.out.println(litrosagalones(n));
     	case 2:
+    		double vol1=Funciones.dimeDouble("Escribe la temperatura", sc);
+			System.out.println(galonesalitros(vol1));
     		System.out.println(galonesalitros(n));
     		
     	}
